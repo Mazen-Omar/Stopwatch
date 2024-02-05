@@ -1,7 +1,6 @@
 /* 
  * File:   application.c
- * Author: M_Omar
- *
+ * Author: Mazen Omar
  * Created on February, 2024, 11:10 PM
  */
 

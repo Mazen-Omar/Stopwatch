@@ -1,0 +1,418 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4620 ]
+[d frameptr 4065 ]
+"11 D:\Study\Courses\Embedded_Systems\MIcrocontroller_interfacing\MPLAPprojects\ECU_layer/7_segment/segment.c
+[e E2874 . `uc
+SEGMENT_COMMON_ANODE 0
+SEGMENT_COMMON_CATHODE 1
+]
+"38
+[e E2821 . `uc
+GPIO_LOGIC_LOW 0
+GPIO_LOGIC_HIGH 1
+]
+"16 D:\Study\Courses\Embedded_Systems\MIcrocontroller_interfacing\MPLAPprojects\ECU_layer/Button/Button.c
+[e E2874 . `uc
+BUTTON_RELEASED 0
+BUTTON_PRESSED 1
+]
+[e E2878 . `uc
+BUTTON_ACTIVE_HIGH 1
+BUTTON_ACTIVE_LOW 0
+]
+"41
+[e E2821 . `uc
+GPIO_LOGIC_LOW 0
+GPIO_LOGIC_HIGH 1
+]
+"24 D:\Study\Courses\Embedded_Systems\MIcrocontroller_interfacing\MPLAPprojects\ECU_layer/DC_motor/DC_motor.c
+[e E2825 . `uc
+GPIO_DIRECTION_OUTPUT 0
+GPIO_DIRECTION_INPUT 1
+]
+"54
+[e E2821 . `uc
+GPIO_LOGIC_LOW 0
+GPIO_LOGIC_HIGH 1
+]
+"26 D:\Study\Courses\Embedded_Systems\MIcrocontroller_interfacing\MPLAPprojects\ECU_layer/LED/ecu_led.c
+[e E2825 . `uc
+GPIO_DIRECTION_OUTPUT 0
+GPIO_DIRECTION_INPUT 1
+]
+"52
+[e E2821 . `uc
+GPIO_LOGIC_LOW 0
+GPIO_LOGIC_HIGH 1
+]
+"25 D:\Study\Courses\Embedded_Systems\MIcrocontroller_interfacing\MPLAPprojects\ECU_layer/Relay/Relay.c
+[e E2825 . `uc
+GPIO_DIRECTION_OUTPUT 0
+GPIO_DIRECTION_INPUT 1
+]
+"50
+[e E2821 . `uc
+GPIO_LOGIC_LOW 0
+GPIO_LOGIC_HIGH 1
+]
+"26 D:\Study\Courses\Embedded_Systems\MIcrocontroller_interfacing\MPLAPprojects\MCAL_layer/GPIO/hal_gpio.c
+[e E2821 . `uc
+GPIO_LOGIC_LOW 0
+GPIO_LOGIC_HIGH 1
+]
+"58
+[e E2825 . `uc
+GPIO_DIRECTION_OUTPUT 0
+GPIO_DIRECTION_INPUT 1
+]
+"172
+[e E2829 . `uc
+PORTA_INDEX 0
+PORTB_INDEX 1
+PORTC_INDEX 2
+PORTD_INDEX 3
+PORTE_INDEX 4
+]
+"10 D:\Study\Courses\Embedded_Systems\MIcrocontroller_interfacing\MPLAPprojects\application.c
+[e E2891 . `uc
+BUTTON_RELEASED 0
+BUTTON_PRESSED 1
+]
+[e E2895 . `uc
+BUTTON_ACTIVE_HIGH 1
+BUTTON_ACTIVE_LOW 0
+]
+[e E2829 . `uc
+PORTA_INDEX 0
+PORTB_INDEX 1
+PORTC_INDEX 2
+PORTD_INDEX 3
+PORTE_INDEX 4
+]
+[e E2811 . `uc
+GPIO_PIN0 0
+GPIO_PIN1 1
+GPIO_PIN2 2
+GPIO_PIN3 3
+GPIO_PIN4 4
+GPIO_PIN5 5
+GPIO_PIN6 6
+GPIO_PIN7 7
+]
+[e E2821 . `uc
+GPIO_LOGIC_LOW 0
+GPIO_LOGIC_HIGH 1
+]
+[e E2825 . `uc
+GPIO_DIRECTION_OUTPUT 0
+GPIO_DIRECTION_INPUT 1
+]
+"61
+[e E2938 . `uc
+SEGMENT_COMMON_ANODE 0
+SEGMENT_COMMON_CATHODE 1
+]
+"58 D:\Study\Courses\Embedded_Systems\MIcrocontroller_interfacing\MPLAPprojects\ECU_layer/Keypad/keypad.c
+[e E2821 . `uc
+GPIO_LOGIC_LOW 0
+GPIO_LOGIC_HIGH 1
+]
+"139 D:\Study\Courses\Embedded_Systems\MIcrocontroller_interfacing\MPLAPprojects\application.c
+[v _main main `(i  1 e 2 0 ]
+"301
+[v _application_initialize application_initialize `(v  1 e 1 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"11 D:\Study\Courses\Embedded_Systems\MIcrocontroller_interfacing\MPLAPprojects\ECU_layer/7_segment/segment.c
+[v _segment_inititalize segment_inititalize `(uc  1 e 1 0 ]
+"29
+[v _segment_write_number segment_write_number `(uc  1 e 1 0 ]
+"16 D:\Study\Courses\Embedded_Systems\MIcrocontroller_interfacing\MPLAPprojects\ECU_layer/Button/Button.c
+[v _Button_initialize Button_initialize `(uc  1 e 1 0 ]
+"38
+[v _Button_read Button_read `(uc  1 e 1 0 ]
+"38 D:\Study\Courses\Embedded_Systems\MIcrocontroller_interfacing\MPLAPprojects\ECU_layer/Relay/Relay.c
+[v _Relay_turn_on Relay_turn_on `(uc  1 e 1 0 ]
+"61
+[v _Relay_turn_off Relay_turn_off `(uc  1 e 1 0 ]
+"16 D:\Study\Courses\Embedded_Systems\MIcrocontroller_interfacing\MPLAPprojects\MCAL_layer/GPIO/hal_gpio.c
+[v _gpio_pin_initialize gpio_pin_initialize `(uc  1 e 1 0 ]
+"39
+[v _gpio_pin_direction_initialize gpio_pin_direction_initialize `(uc  1 e 1 0 ]
+"93
+[v _gpio_pin_write_logic gpio_pin_write_logic `(uc  1 e 1 0 ]
+"125
+[v _gpio_pin_read_logic gpio_pin_read_logic `(uc  1 e 1 0 ]
+"148
+[v _gpio_pin_toggle_logic gpio_pin_toggle_logic `(uc  1 e 1 0 ]
+[s S39 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 logic 1 0 :1:6 
+`uc 1 direction 1 0 :1:7 
+]
+"10 D:\Study\Courses\Embedded_Systems\MIcrocontroller_interfacing\MPLAPprojects\application.c
+[s S105 . 3 `S39 1 button 1 0 `E2874 1 state 1 1 `E2878 1 active 1 2 ]
+[v _start start `S105  1 e 3 0 ]
+"19
+[v _stop stop `S105  1 e 3 0 ]
+"29
+[v _speed_up speed_up `S105  1 e 3 0 ]
+"40
+[v _pause pause `S105  1 e 3 0 ]
+"51
+[v _reset reset `S105  1 e 3 0 ]
+"61
+[s S47 . 5 `[4]S39 1 segment_pin 4 0 `E2874 1 segment_type 1 4 ]
+[v _seg seg `S47  1 e 5 0 ]
+"82
+[v _control_1 control_1 `S39  1 e 1 0 ]
+"90
+[v _control_2 control_2 `S39  1 e 1 0 ]
+"98
+[v _control_3 control_3 `S39  1 e 1 0 ]
+"106
+[v _control_4 control_4 `S39  1 e 1 0 ]
+"114
+[v _control_5 control_5 `S39  1 e 1 0 ]
+"122
+[v _control_6 control_6 `S39  1 e 1 0 ]
+"131
+[v _ret ret `uc  1 e 1 0 ]
+"132
+[v _start_state start_state `E2891  1 e 1 0 ]
+"133
+[v _stop_state stop_state `E2891  1 e 1 0 ]
+"134
+[v _reset_state reset_state `E2891  1 e 1 0 ]
+"135
+[v _pause_state pause_state `E2891  1 e 1 0 ]
+"136
+[v _speed_state speed_state `E2891  1 e 1 0 ]
+"138
+[v _seconds seconds `uc  1 e 1 0 ]
+[v _minutes minutes `uc  1 e 1 0 ]
+[v _hours hours `uc  1 e 1 0 ]
+"52 C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4620.h
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+"189
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"360
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"535
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"677
+[v _PORTE PORTE `VEuc  1 e 1 @3972 ]
+"880
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+"992
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"1104
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+"1216
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+"1328
+[v _LATE LATE `VEuc  1 e 1 @3981 ]
+"1380
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"1602
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"1824
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"2046
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"2268
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+"78 D:\Study\Courses\Embedded_Systems\MIcrocontroller_interfacing\MPLAPprojects/MCAL_layer/GPIO/hal_gpio.h
+[v _tris_registers tris_registers `[5]*.39VEuc  1 e 10 0 ]
+"79
+[v _lat_registers lat_registers `[5]*.39VEuc  1 e 10 0 ]
+"80
+[v _port_registers port_registers `[5]*.39VEuc  1 e 10 0 ]
+"10 D:\Study\Courses\Embedded_Systems\MIcrocontroller_interfacing\MPLAPprojects\ECU_layer/Keypad/keypad.c
+[v _keypad_values keypad_values `C[4][4]uc  1 s 16 keypad_values ]
+"139 D:\Study\Courses\Embedded_Systems\MIcrocontroller_interfacing\MPLAPprojects\application.c
+[v _main main `(i  1 e 2 0 ]
+{
+"145
+[v main@delay_time delay_time `uc  1 a 1 16 ]
+"143
+[v main@start_flag start_flag `uc  1 a 1 15 ]
+"142
+[v main@counter counter `uc  1 a 1 14 ]
+"299
+} 0
+"29 D:\Study\Courses\Embedded_Systems\MIcrocontroller_interfacing\MPLAPprojects\ECU_layer/7_segment/segment.c
+[v _segment_write_number segment_write_number `(uc  1 e 1 0 ]
+{
+"31
+[v segment_write_number@ret ret `uc  1 a 1 10 ]
+[s S39 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 logic 1 0 :1:6 
+`uc 1 direction 1 0 :1:7 
+]
+"29
+[s S47 . 5 `[4]S39 1 segment_pin 4 0 `E2874 1 segment_type 1 4 ]
+[v segment_write_number@seg seg `*.30CS47  1 p 1 8 ]
+[v segment_write_number@number number `uc  1 p 1 9 ]
+"45
+} 0
+"301 D:\Study\Courses\Embedded_Systems\MIcrocontroller_interfacing\MPLAPprojects\application.c
+[v _application_initialize application_initialize `(v  1 e 1 0 ]
+{
+"303
+[v application_initialize@ret ret `uc  1 a 1 12 ]
+"321
+} 0
+"11 D:\Study\Courses\Embedded_Systems\MIcrocontroller_interfacing\MPLAPprojects\ECU_layer/7_segment/segment.c
+[v _segment_inititalize segment_inititalize `(uc  1 e 1 0 ]
+{
+"13
+[v segment_inititalize@ret ret `uc  1 a 1 11 ]
+[s S39 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 logic 1 0 :1:6 
+`uc 1 direction 1 0 :1:7 
+]
+"11
+[s S47 . 5 `[4]S39 1 segment_pin 4 0 `E2874 1 segment_type 1 4 ]
+[v segment_inititalize@seg seg `*.30CS47  1 p 1 10 ]
+"27
+} 0
+"16 D:\Study\Courses\Embedded_Systems\MIcrocontroller_interfacing\MPLAPprojects\MCAL_layer/GPIO/hal_gpio.c
+[v _gpio_pin_initialize gpio_pin_initialize `(uc  1 e 1 0 ]
+{
+[s S39 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 logic 1 0 :1:6 
+`uc 1 direction 1 0 :1:7 
+]
+[v gpio_pin_initialize@_pin_config _pin_config `*.30CS39  1 p 1 8 ]
+"30
+} 0
+"93
+[v _gpio_pin_write_logic gpio_pin_write_logic `(uc  1 e 1 0 ]
+{
+"95
+[v gpio_pin_write_logic@ret ret `uc  1 a 1 7 ]
+[s S39 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 logic 1 0 :1:6 
+`uc 1 direction 1 0 :1:7 
+]
+"93
+[v gpio_pin_write_logic@_pin_config _pin_config `*.30CS39  1 p 1 0 ]
+[v gpio_pin_write_logic@logic logic `E2821  1 p 1 1 ]
+"115
+} 0
+"16 D:\Study\Courses\Embedded_Systems\MIcrocontroller_interfacing\MPLAPprojects\ECU_layer/Button/Button.c
+[v _Button_initialize Button_initialize `(uc  1 e 1 0 ]
+{
+"18
+[v Button_initialize@ret ret `uc  1 a 1 7 ]
+[s S39 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 logic 1 0 :1:6 
+`uc 1 direction 1 0 :1:7 
+]
+"16
+[s S105 . 3 `S39 1 button 1 0 `E2874 1 state 1 1 `E2878 1 active 1 2 ]
+[v Button_initialize@btn btn `*.30CS105  1 p 1 6 ]
+"29
+} 0
+"39 D:\Study\Courses\Embedded_Systems\MIcrocontroller_interfacing\MPLAPprojects\MCAL_layer/GPIO/hal_gpio.c
+[v _gpio_pin_direction_initialize gpio_pin_direction_initialize `(uc  1 e 1 0 ]
+{
+[s S39 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 logic 1 0 :1:6 
+`uc 1 direction 1 0 :1:7 
+]
+[v gpio_pin_direction_initialize@_pin_config _pin_config `*.30CS39  1 p 1 0 ]
+"62
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 5 ]
+[v ___awmod@counter counter `uc  1 a 1 4 ]
+"7
+[v ___awmod@dividend dividend `i  1 p 2 0 ]
+[v ___awmod@divisor divisor `i  1 p 2 2 ]
+"34
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 0 ]
+[v ___awdiv@divisor divisor `i  1 p 2 2 ]
+"41
+} 0
+"38 D:\Study\Courses\Embedded_Systems\MIcrocontroller_interfacing\MPLAPprojects\ECU_layer/Button/Button.c
+[v _Button_read Button_read `(uc  1 e 1 0 ]
+{
+"41
+[v Button_read@button_logic button_logic `E2821  1 a 1 12 ]
+"40
+[v Button_read@ret ret `uc  1 a 1 11 ]
+[s S39 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 logic 1 0 :1:6 
+`uc 1 direction 1 0 :1:7 
+]
+"38
+[s S105 . 3 `S39 1 button 1 0 `E2874 1 state 1 1 `E2878 1 active 1 2 ]
+[v Button_read@btn btn `*.30CS105  1 p 1 8 ]
+[v Button_read@_st _st `*.30E2874  1 p 1 9 ]
+"78
+} 0
+"125 D:\Study\Courses\Embedded_Systems\MIcrocontroller_interfacing\MPLAPprojects\MCAL_layer/GPIO/hal_gpio.c
+[v _gpio_pin_read_logic gpio_pin_read_logic `(uc  1 e 1 0 ]
+{
+"127
+[v gpio_pin_read_logic@ret ret `uc  1 a 1 7 ]
+[s S39 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 logic 1 0 :1:6 
+`uc 1 direction 1 0 :1:7 
+]
+"125
+[v gpio_pin_read_logic@_pin_config _pin_config `*.30CS39  1 p 1 0 ]
+[v gpio_pin_read_logic@logic logic `*.30E2821  1 p 1 1 ]
+"138
+} 0

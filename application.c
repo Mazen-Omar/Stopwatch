@@ -141,7 +141,7 @@ int main()
     uint8 counter;
     uint8 start_flag = 0;
     
-    uint8 delay_time = 50;
+    uint8 delay_time = 35;
     while(1)
     {
        ret = Button_read(&start, &start_state);
@@ -193,7 +193,7 @@ int main()
                 }
                 else if(speed_state == BUTTON_RELEASED)
                 {
-                    delay_time = 50;
+                    delay_time = 35;
                 }
                 
                             /* pause button */

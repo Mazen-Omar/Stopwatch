@@ -1,4 +1,5 @@
 # Stopwatch
+![image](https://github.com/Mazen-Omar/Stopwatch/assets/112568201/67e27d7a-6696-4225-97e9-de65d64bf05c)
 
 
 #### Purpose

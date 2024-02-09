@@ -1,5 +1,5 @@
 # Stopwatch
-![Uploading image.png…]()
+![Uploading image.jpg…]()
 
 
 #### Purpose

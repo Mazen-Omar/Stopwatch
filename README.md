@@ -14,7 +14,7 @@ It handles additional functionalities like speed adjustment (speed_up button), p
 #### Timer Operation
 I handled the timer operation using a for loop. The timer increments seconds and updates minutes and hours accordingly. It also handles rollover conditions for hours.
 
-##🔑Key Features of the Stopwatch Project:
+🔑 ## Key Features of the Stopwatch Project:
 
 🔘 ###Start Button: Initiates the stopwatch to begin counting time.
 

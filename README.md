@@ -14,17 +14,17 @@ It handles additional functionalities like speed adjustment (speed_up button), p
 #### Timer Operation
 I handled the timer operation using a for loop. The timer increments seconds and updates minutes and hours accordingly. It also handles rollover conditions for hours.
 
-🔑 ## Key Features of the Stopwatch Project:
+🔑 Key Features of the Stopwatch Project:
 
-🔘 ###Start Button: Initiates the stopwatch to begin counting time.
+🔘 Start Button: Initiates the stopwatch to begin counting time.
 
-🔘 ###Close Button: Stops the stopwatch and closes the application.
+🔘 Close Button: Stops the stopwatch and closes the application.
 
-🔘 ###Reset Button: Resets the stopwatch to zero, allowing for a fresh start.
+🔘 Reset Button: Resets the stopwatch to zero, allowing for a fresh start.
 
-🔘 ###Speed Up Button: Increases the timer speed.
+🔘 Speed Up Button: Increases the timer speed.
 
-🔘 ###Pause Button: Temporarily halts the stopwatch while maintaining the current time.
+🔘 Pause Button: Temporarily halts the stopwatch while maintaining the current time.
 
-🔘 ###8-Digit 7-Segment Display: Provides a visually stunning representation of the elapsed time, making it easy to read.
+🔘 8-Digit 7-Segment Display: Provides a visually stunning representation of the elapsed time, making it easy to read.
 

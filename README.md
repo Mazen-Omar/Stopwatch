@@ -1,5 +1,7 @@
 # Stopwatch
 
+
+
 #### Purpose
 The application.c file contains the implementation of the application layer functionalities for controlling a timer system. It initializes various hardware components such as buttons, 7-segment display, and control pins, and then runs a timer loop based on button inputs.
 
@@ -13,7 +15,7 @@ Inside the timer loop, it updates the timer values (hours, minutes, seconds) and
 It handles additional functionalities like speed adjustment (speed_up button), pausing the timer (pause button), stopping the timer (stop button), and resetting the timer (reset button).
 
 #### Timer Operation
-The timer increments seconds and updates minutes and hours accordingly. It also handles rollover conditions for hours.
+I handled the timer operation using a loop. The timer increments seconds and updates minutes and hours accordingly. It also handles rollover conditions for hours.
 
 #### Button Inputs Handling
 Button inputs are continuously monitored in the loop. Different button presses trigger various actions such as starting, pausing, stopping, and resetting the timer.

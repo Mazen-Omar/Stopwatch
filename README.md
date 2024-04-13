@@ -1,5 +1,5 @@
 # Stopwatch
-In this project, I tried to simulate timer operation.
+
 ![image](https://github.com/Mazen-Omar/Stopwatch/assets/112568201/67e27d7a-6696-4225-97e9-de65d64bf05c)
 
 
@@ -13,7 +13,7 @@ Inside the timer loop, it updates the timer values (hours, minutes, seconds) and
 It handles additional functionalities like speed adjustment (speed_up button), pausing the timer (pause button), stopping the timer (stop button), and resetting the timer (reset button)
 
 ### Timer Operation
-I handled the timer operation using a for loop. The timer increments seconds and updates minutes and hours accordingly. It also handles rollover conditions for hours.
+I tried to simulate timer operation. I handled the timer operation using a for loop. The timer increments seconds and updates minutes and hours accordingly. It also handles rollover conditions for hours.
 
 🔑 Key Features of the Stopwatch Project:
 
